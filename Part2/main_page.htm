@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>When is Easter?</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="navbar">
+        <table>
+            <thead>
+                <tr>
+                    
+                    <th class="navbarCurrentPage"><a href="main_page.html">Homepage</a> </th>
+
+                    <th class="navbarItems"><a href="main_page.html">placeholder</a> </th>
+
+                    <th class="navbarItems"><a href="main_page.html">placeholder</a> </th>
+
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <h1 class="headingFonts ">Finding Easter</h1>
+    <div class="formDesign">
+        <FORM action="cgi-bin/easter.py" method="GET" class="formDesign" >
+            <label for="easter year">Which year?</label><br>
+                <input type="number" id="easter year" name="year"><br>
+            <label>format</label><br>
+            <input type="radio" id="/" name="divider" value="/">
+                <label for="/">/</label><br>
+            <input type="radio" id="words" name="divider" value="words">
+                <label for="words">Named month</label><br>
+            <label for="fave colour">favourite colour</label>
+                <input type="color" id="fave colour" name="fave colour" value="color"><br>
+                
+            <input type="submit" value="submit">
+        </FORM>
+    </div>
+</body>

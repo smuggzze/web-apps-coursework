@@ -1,0 +1,138 @@
+body{
+    background-color: navajowhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    vertical-align: center;
+    color: black;
+
+}
+
+.headingFonts{
+    font-family: "Courier New", monospace;
+}
+
+p{
+    color: floralwhite;
+    font-family: "Courier New", monospace;
+    border: 2px solid #ffb5ad;
+    background-color: #deadff;
+}
+
+.navbar{
+    background-color: #deadff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    padding-right: 0%;
+    
+}
+
+.navbarItems{   
+    border: 2px solid  #9289de;
+    background-color: #ffb5ad;
+    padding: 10px 16px;
+    
+}
+
+.navbarCurrentPage{
+    border: 2px solid  #9289de;
+    background-color: #adf7ff;
+    padding: 10px 16px;
+    
+}
+
+img{
+    float: left;    
+    width: 37%;
+    height : 35%;
+    margin:auto;
+}
+
+.ImgText{
+    width: 37%;
+    height: 35%;
+    border: 2px solid #ffb5ad;
+    background-color: #deadff;
+}
+
+table{
+    background-color: #deadff;
+    border: 2px solid #ffb5ad;
+}
+
+table, th, td{
+    color: floralwhite;
+    border: 2px solid #ffb5ad;  
+    border-collapse: collapse;
+}
+
+th{
+    color: black;
+}
+
+.parent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.child{
+    color: floralwhite;
+    font-family: "Courier New", monospace;
+    border: 0px;
+    background-color: #deadff;
+    margin: auto;
+}
+
+footer{
+    background-color: #deadff;
+    margin: 0;
+    width: 100%;
+    padding-right: 0%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    
+    
+}
+
+.pageDesign{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column; 
+    justify-content:space-between;
+}
+
+.formDesign{
+    color: floralwhite;
+    font-family: "Courier New", monospace;
+    border: 2px solid #ffb5ad;
+    background-color: #deadff;
+    vertical-align: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+
+  input[type="color"] {
+    width: 20%;
+    background-color: #deadff;
+    /* color: white; */
+    /* padding: 14px 20px; */
+    
+}
+  
